@@ -1,0 +1,205 @@
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+	color: $text-contrast-palette-primary_5;
+
+	/*-----------------------------------------------
+	## 1
+	-----------------------------------------------*/
+	.site-header {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.site-title a,
+	.site-title a:hover,
+	.site-title a:focus,
+	.menu-social li a,
+	#secondary-menu a, 
+	#tertiary-menu a, 
+	#footer-center-menu a,
+	.mod-gamma-1,
+	.site-footer, 
+	.site-footer a,
+	.attribution {
+		color: $text-contrast-palette-primary_1;
+	}
+	.site-footer,
+	.navbar-default .navbar-toggle:hover,
+	.mod-gamma-1 {
+		background: $palette-primary_1;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .current-menu-item > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		background: $palette-primary_1 !important;
+		color: $text-contrast-palette-primary_1 !important;
+	}
+	h1, h2, h3, h4, h5, h6,
+	#primary-navbar li.menu-social a:hover,
+	#primary-navbar li.menu-social a:focus, 
+	#menu-primary .current-menu-item a,
+	.disabled-footer .site-footer a {
+		color: $palette-primary_1;
+	}
+	.slogan {
+		color: #f4f9fc;
+	}
+	@media (min-width: 992px) {
+		.navbar-default .navbar-nav > li > a {
+			border-right: 2px solid $palette-primary_1;
+		}
+		.navbar-default .navbar-nav > li:last-child > a {
+			border-right: none;
+		}
+	}
+
+	/*-----------------------------------------------
+	## 2
+	-----------------------------------------------*/
+	#site-navigation,
+	.navbar-default .navbar-nav > li.dropdown:hover > a, 
+	.dropdown .active, 
+	ul.dropdown-menu,
+	.mod-alpha-1 {
+		background: $palette-primary_2;
+	}
+	h3,
+	a,
+	a:hover,
+	a:focus,
+	.link-primary,
+	.link-primary:hover,
+	.link-primary:focus,
+	#secondary-menu .current-menu-item a,
+	#tertiary-menu .current-menu-item a,
+	#footer-center-menu .current-menu-item a,
+	.menu-social .current-menu-item a,
+	.menu-social li a:hover,
+	.menu-social li a:focus,
+	#secondary-menu li.menu-social a:hover,
+	#secondary-menu li.menu-social a:focus,
+	#tertiary-menu li.menu-social a:hover,
+	#tertiary-menu li.menu-social a:focus,
+	#footer-center-menu li.menu-social a:hover,
+	#footer-center-menu li.menu-social a:focus,
+	.mod-blockquote p,
+	.site-footer a:hover,
+	.site-footer a:focus {
+		color: $palette-primary_2;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .navbar-nav > .active > a,
+	#menu-primary .current-menu-item a {
+   		color: $text-contrast-palette-primary_2;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-nav .open > a,
+	.navbar-default .navbar-nav .open > a:hover,
+	.navbar-default .navbar-nav .open > a:focus {
+		color: $text-contrast-palette-primary_2 !important;
+	}
+	.mod-blockquote {
+		border-left: 7px solid $palette-primary_2;
+	}
+	.entry-title:before {
+		border-top: 2px solid $palette-primary_2;
+	}
+
+	/*-----------------------------------------------
+	## Buttons
+	-----------------------------------------------*/
+	.button-primary,
+	.form-submit .submit,
+	.ninja-forms-field.btn,
+	.button-primary:hover,
+	.button-primary:focus,
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	.ninja-forms-field.btn:hover,
+	.ninja-forms-field.btn:focus {
+		color: #333;
+	}
+	.button-secondary,
+	.button-secondary:hover,
+	.button-secondary:focus {
+		color: #fff;
+	}
+
+	/*-----------------------------------------------
+	## 3
+	-----------------------------------------------*/
+	hr {
+		background: $palette-primary_3;
+	}
+	ul,
+	ol,
+	.link-secondary,
+	.link-secondary:hover,
+	.link-secondary:focus,
+	.entry-title {
+		color: $palette-primary_3;
+	}
+	.mod-beta {	
+		border-bottom: 5px solid $palette-primary_3;
+	}
+	.mod-gamma-1 {
+		border-top: 5px solid $palette-primary_3;
+	}
+
+	/*-----------------------------------------------
+	## 4
+	-----------------------------------------------*/
+	.background-beta {
+		background: $palette-primary_4;
+	}
+
+	/*-----------------------------------------------
+	## 5
+	-----------------------------------------------*/
+	.background-primary,
+	#boldgrid-sticky-push,
+	#boldgrid-sticky-filler,
+	.entry-title span {
+		background: $palette-primary_5;
+	}
+
+	/*-----------------------------------------------
+	## Text Dark
+	-----------------------------------------------*/
+	.mod-beta h3,
+	.mod-beta p,
+	.comment-meta a,
+	.comment-content,
+	h5.media-heading,
+	.widget-title,
+	.widget,
+	.widget a {
+		color: #333;
+	}
+	.panel-body {
+		background: #fff;
+	}
+
+	/*-----------------------------------------------
+	## Site Info
+	-----------------------------------------------*/
+	.site-info p,
+	.site-info a {
+		color: $text-contrast-palette-primary_1;
+	}
+}
+
+/*------------------------------------------------------------------------
+# Additional Body Classes
+------------------------------------------------------------------------*/
+.palette-primary.mce-content-body {
+	background: $palette-primary_5;
+	color: $text-contrast-palette-primary_5;
+}
+.page-template-page_home .content-home {
+	background: $palette-primary_5;
+}
+.disabled-footer .site-footer {
+	background: $palette-primary_5;
+}
