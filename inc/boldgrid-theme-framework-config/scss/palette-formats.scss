@@ -14,6 +14,7 @@
 	.site-title a,
 	.site-title a:hover,
 	.site-title a:focus,
+	.site-description,
 	.menu-social li a,
 	#secondary-menu a, 
 	#tertiary-menu a, 
@@ -21,7 +22,9 @@
 	.mod-gamma-1,
 	.site-footer, 
 	.site-footer a,
-	.attribution {
+	.attribution,
+	.social-icons a:hover,
+	.social-icons a:focus {
 		color: $text-contrast-palette-primary_1;
 	}
 	.site-footer,
@@ -64,7 +67,6 @@
 	.mod-alpha-1 {
 		background: $palette-primary_2;
 	}
-	h3,
 	a,
 	a:hover,
 	a:focus,
@@ -165,7 +167,11 @@
 	}
 
 	/*-----------------------------------------------
-	## Text Dark
+	## Light Text
+	-----------------------------------------------*/
+
+	/*-----------------------------------------------
+	## Dark Text
 	-----------------------------------------------*/
 	.mod-beta h3,
 	.mod-beta p,
@@ -182,11 +188,58 @@
 	}
 
 	/*-----------------------------------------------
-	## Site Info
+	## Text Contrast
 	-----------------------------------------------*/
 	.site-info p,
 	.site-info a {
 		color: $text-contrast-palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## Backgrounds
+	-----------------------------------------------*/
+	.call-to-action {
+		background: rgba(40, 40, 40, 0.9);
+		color: #f4f9fc;
+	}
+	.mod-beta {
+		background: rgba(225, 225, 225, 0.9);
+	}
+
+	/*-----------------------------------------------
+	## Et Cetera
+	-----------------------------------------------*/
+	/* fff */
+	.comment-text {
+		background: #fff;	
+	}
+
+	/* 333 */
+	.mod-beta p,
+	.mod-beta h3,
+	.woocommerce div.product form.cart .variations label,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+		color: #333;
+	}
+
+	/* ccc */
+	.widget-area {
+	    border: 1px solid #ccc;
+	}
+
+	/* WooCommerce */
+	.woocommerce #respond input#submit, 
+	.woocommerce a.button,
+	.woocommerce button.button, 
+	.woocommerce input.button,
+	.woocommerce p.buttons a.button {
+	    background-color: #a46497;
+	    color: #fff;
+	}
+	.woocommerce p.buttons a.button:hover {
+		background-color: #dad8da;
+	    color: #515151;
 	}
 }
 
