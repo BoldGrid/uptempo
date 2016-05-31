@@ -15,11 +15,11 @@
 	.site-title a:hover,
 	.site-title a:focus,
 	.menu-social li a,
-	#secondary-menu a, 
-	#tertiary-menu a, 
+	#secondary-menu a,
+	#tertiary-menu a,
 	#footer-center-menu a,
 	.mod-gamma-1,
-	.site-footer, 
+	.site-footer,
 	.site-footer a,
 	.attribution {
 		color: $text-contrast-palette-primary_1;
@@ -37,7 +37,7 @@
 	}
 	h1, h2, h3, h4, h5, h6,
 	#primary-navbar li.menu-social a:hover,
-	#primary-navbar li.menu-social a:focus, 
+	#primary-navbar li.menu-social a:focus,
 	#menu-primary .current-menu-item a,
 	.disabled-footer .site-footer a {
 		color: $palette-primary_1;
@@ -58,8 +58,8 @@
 	## 2
 	-----------------------------------------------*/
 	#site-navigation,
-	.navbar-default .navbar-nav > li.dropdown:hover > a, 
-	.dropdown .active, 
+	.navbar-default .navbar-nav > li.dropdown:hover > a,
+	.dropdown .active,
 	ul.dropdown-menu,
 	.mod-alpha-1 {
 		background: $palette-primary_2;
@@ -140,7 +140,7 @@
 	.entry-title {
 		color: $palette-primary_3;
 	}
-	.mod-beta {	
+	.mod-beta {
 		border-bottom: 5px solid $palette-primary_3;
 	}
 	.mod-gamma-1 {
@@ -160,6 +160,7 @@
 	.background-primary,
 	#boldgrid-sticky-push,
 	#boldgrid-sticky-filler,
+	.hentry,
 	.entry-title span {
 		background: $palette-primary_5;
 	}
