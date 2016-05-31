@@ -866,6 +866,7 @@ ul.dropdown-menu {
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
+	padding: 2em 0;
 	background: #2f485b;
 	text-align: center;
 }
