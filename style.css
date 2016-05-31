@@ -55,10 +55,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .background-primary {
 	background: #f4f9fc;
 }
-.page-template-page_home .site-content {
+.page-template-home .site-content {
 	background: none;
 }
-.page-template-page_home .content-home {
+.page-template-home .content-home {
 	background: #f4f9fc;
 }
 
@@ -93,7 +93,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-body { 
+body {
   	font-family: 'Roboto';
   	font-weight: 400;
 }
@@ -114,7 +114,7 @@ h3 {
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-page_home .entry-title {
+.page-template-home .entry-title {
 	display: none;
 }
 .entry-title {
@@ -136,15 +136,15 @@ h3 {
 	content:"";
 	left: 0;
 	margin: 0 auto;
-	position: absolute; 
+	position: absolute;
 	right: 0;
-	top: 50%;   
+	top: 50%;
 	z-index: -1;
 }
-.entry-title span { 
-	/* to hide the lines from behind the text, you have to set the background color the same as the container */ 
-	background: #f4f9fc; 
-	padding: 0 15px; 
+.entry-title span {
+	/* to hide the lines from behind the text, you have to set the background color the same as the container */
+	background: #f4f9fc;
+	padding: 0 15px;
 }
 .post-title-hidden .entry-header {
 	margin-top: 50px;
@@ -286,7 +286,7 @@ a:focus,
 /* Positioning */
 .p-button-primary {
 	margin: 25px 0;
-	padding: 7px;	
+	padding: 7px;
 }
 
 /* Block vs. Inline */
@@ -404,7 +404,7 @@ hr {
 }
 
 /* Nav Reset */
-.navbar { 
+.navbar {
 	border: none;
 	/* Border Radius */
 	-webkit-border-radius: 0;
@@ -437,16 +437,16 @@ hr {
 }
 
 /* Drop-Down */
-.navbar-default .navbar-nav > li.dropdown:hover > a, 
-.dropdown .active, 
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.dropdown .active,
 ul.dropdown-menu {
 	background: #6a96b2;
 }
 .dropdown-menu > li > a {
 	color: #fff;
 }
-.dropdown-menu > .active > a, 
-.dropdown-menu > .active > a:hover, 
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
 	background: #fff;
 }
@@ -488,7 +488,7 @@ ul.dropdown-menu {
 	.navbar-default .navbar-nav > li > a {
 		text-align: left;
 	}
-	
+
 	/* Nav Links */
 	.navbar-default {
 		margin-left: 0;
@@ -536,7 +536,7 @@ ul.dropdown-menu {
 }
 .menu-social ul li {
     position: relative;
-    display: inline-block;    
+    display: inline-block;
 }
 .menu-social li a {
 	color: #f4f9fc;
@@ -596,11 +596,11 @@ ul.dropdown-menu {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
 .gridblock p {
 	margin: 10px 0;
@@ -646,7 +646,7 @@ ul.dropdown-menu {
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -750,11 +750,11 @@ ul.dropdown-menu {
 ## Gamma
 -----------------------------------------------*/
 .mod-gamma h3 {
-	text-align: center;	
+	text-align: center;
 }
 .img-border {
 	border-radius: 50%;
-	margin: 20px 0 0;	
+	margin: 20px 0 0;
 }
 .testimonial-title {
 	margin: 75px 0 50px;
@@ -829,9 +829,9 @@ ul.dropdown-menu {
 .product_title:before {
     border-top: none;
 }
-.woocommerce #respond input#submit, 
+.woocommerce #respond input#submit,
 .woocommerce a.button,
-.woocommerce button.button, 
+.woocommerce button.button,
 .woocommerce input.button,
 .woocommerce p.buttons a.button {
     background-color: #a46497;
@@ -844,7 +844,7 @@ ul.dropdown-menu {
     text-decoration: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
-	background: none;	
+	background: none;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
     color: #333;
@@ -853,10 +853,10 @@ ul.dropdown-menu {
     color: #333;
 }
 .comment-text {
-	background: #fff;	
+	background: #fff;
 }
 .woocommerce div.product form.cart .variations label {
-	color: #333;	
+	color: #333;
 }
 .woocommerce .content-area {
 	padding: 15px 0;
