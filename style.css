@@ -94,8 +94,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Typography
 -----------------------------------------------*/
 body {
-  	font-family: 'Roboto';
-  	font-weight: 400;
+	font-family: 'Roboto';
+	font-weight: 400;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #2f485b;
@@ -104,11 +104,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 h2 {
-  	font-size: 36px;
+	font-size: 36px;
 }
 h3 {
 	color: #6a96b2;
-  	font-size: 20px;
+	font-size: 20px;
 }
 
 /*-----------------------------------------------
@@ -152,10 +152,10 @@ h3 {
 
 /* Headings */
 .heading {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .heading h3 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 /*-----------------------------------------------
@@ -301,7 +301,7 @@ a:focus,
 	.button-primary,
 	.button-secondary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 }
 
@@ -409,7 +409,7 @@ hr {
 	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
-    border-radius: 0;
+	border-radius: 0;
 }
 .navbar-default {
 	margin-bottom: 0;
@@ -417,7 +417,7 @@ hr {
 
 /* Nav Links */
 .navbar-default .navbar-nav > li > a {
-    color: #f4f9fc;
+	color: #f4f9fc;
 }
 
 /* Hover */
@@ -433,7 +433,7 @@ hr {
 #menu-primary .current-menu-item a {
 	background: none;
 	color: #fff;
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* Drop-Down */
@@ -456,7 +456,7 @@ ul.dropdown-menu {
 .navbar-default .navbar-nav > .active > a:focus
 #menu-primary .current-menu-item a:hover,
 #menu-primary .current-menu-item a:focus {
-    text-decoration: none !important;
+	text-decoration: none !important;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .current-menu-item > a,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
@@ -472,7 +472,7 @@ ul.dropdown-menu {
 
 /* Toggle-Menu */
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+	background-color: #fff;
 }
 .navbar-default .navbar-toggle:hover {
 	background: #2f485b;
@@ -496,7 +496,7 @@ ul.dropdown-menu {
 	.navbar-default .navbar-nav > li > a {
 		border-right: 2px solid #2f485b;
 		margin: 10px 0;
-    	padding: 3px 25px;
+		padding: 3px 25px;
 	}
 	.navbar-default .navbar-nav > li:last-child > a {
 		border-right: none;
@@ -524,7 +524,7 @@ ul.dropdown-menu {
 #secondary-menu .current-menu-item a,
 #tertiary-menu .current-menu-item a,
 #footer-center-menu .current-menu-item a {
-    color: #6a96b2;
+	color: #6a96b2;
 }
 
 /*-----------------------------------------------
@@ -535,8 +535,8 @@ ul.dropdown-menu {
 	float: right;
 }
 .menu-social ul li {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 .menu-social li a {
 	color: #f4f9fc;
@@ -779,13 +779,13 @@ ul.dropdown-menu {
 ------------------------------------------------------------------------*/
 .widget-title,
 .page-title {
-    font-family: 'Changa One';
-    font-size: 18px;
+	font-family: 'Changa One';
+	font-size: 18px;
 	font-style: italic;
 	font-weight: 400;
 }
 .widget-area {
-    border: 1px solid #ccc;
+	border: 1px solid #ccc;
 	margin-top: 25px;
 	padding: 25px;
 }
@@ -796,12 +796,12 @@ ul.dropdown-menu {
 /* Comments */
 .comment-reply-title,
 .comments-title {
-    font-family: 'Changa One';
-    font-size: 24px;
+	font-family: 'Changa One';
+	font-size: 24px;
 }
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 
 /* Widgets */
@@ -827,30 +827,30 @@ ul.dropdown-menu {
 	text-align: left !important;
 }
 .product_title:before {
-    border-top: none;
+	border-top: none;
 }
 .woocommerce #respond input#submit,
 .woocommerce a.button,
 .woocommerce button.button,
 .woocommerce input.button,
 .woocommerce p.buttons a.button {
-    background-color: #a46497;
-    color: #fff;
+	background-color: #a46497;
+	color: #fff;
 }
 .woocommerce p.buttons a.button:hover {
 	background-color: #dad8da;
-    background-image: none;
-    color: #515151;
-    text-decoration: none;
+	background-image: none;
+	color: #515151;
+	text-decoration: none;
 }
 .woocommerce div.product .woocommerce-tabs .panel {
 	background: none;
 }
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active {
-    color: #333;
+	color: #333;
 }
 .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
-    color: #333;
+	color: #333;
 }
 .comment-text {
 	background: #fff;
@@ -919,7 +919,7 @@ html, body, .site, .site-content {
 	height: 100%;
 }
 #boldgrid-sticky-wrap {
-  	min-height: 100%;
-  	height: auto !important;
-  	height: 100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
 }
