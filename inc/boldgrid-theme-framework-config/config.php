@@ -28,7 +28,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
 		'1' => array( '[menu]secondary' ),
-		'5' => array( '[widget]boldgrid-widget-1' ),
+		'5' => array( '[widget]boldgrid-widget-2' ),
 		'6' => array( '[action]boldgrid_site_identity' ),
 		'7' => array( '[menu]social' ),
 		'11' => array( '[action]boldgrid_primary_navigation' ),
@@ -142,8 +142,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * Widgets
 	 */
 	$widget_markup['call-to-action'] = <<<HTML
+	<div class="container">
 		<div class="row call-to-action-wrapper">
-			<div class="col-md-12">
+			<div class="col-md-4">
 				<div class="call-to-action">
 					<h2 class="slogan">WHAT WE OFFER</h2>
 					<p>We are committed to providing the absolute best quality to each and every one of our customers. Over the last 20 years, since our start, we've continued to grow while staying true to our orginal mission — to give you, the customer, a winning service that you can rely on.</p>
@@ -151,11 +152,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 				</div>
 			</div>
 		</div>
+	</div>
 
 HTML;
 
 	// Widget 2.
-	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-2'][] = array(
+	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-1'][] = array(
 		'title' => 'Call To Action',
 		'text' => $widget_markup['call-to-action'],
 		'type' => 'visual',
