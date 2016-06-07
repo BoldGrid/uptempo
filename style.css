@@ -4,7 +4,7 @@ Author: the BoldGrid team
 Theme URI: https://www.boldgrid.com/uptempo
 Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.13
+Version: 1.14
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-uptempo
@@ -29,7 +29,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Social Menus
 # GridBLocks
 	## Positioning
-	## Alternates
 # Modules
 	## Universal
 	## Global
@@ -58,7 +57,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.home .entry-content {
+.page-template-page_home .entry-content {
 	margin: 0;
 	padding-bottom: 100px;
 }
@@ -66,44 +65,27 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+.page-title,
+.widget-title,
+.mod-blockquote p,
+blockquote p {
 	font-style: italic;
 }
+.entry-title,
 ul,
 ol {
-	font-weight: 500;
+	font-style: normal;
+	font-weight: bold;
 }
 a,
 .link-primary,
-.link-secondary {
-	text-decoration: none;
-}
-a:hover,
-a:focus,
-.link-primary:hover,
-.link-primary:focus,
-.link-secondary:hover,
-.link-secondary:focus {
-	text-decoration: underline;
-}
-.entry-title {
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-}
-.call-to-action {
-	text-align: center;
-}
-
-/* Buttons */
-.button-primary,
-.button-secondary,
-.form-submit .submit,
-.ninja-forms-field.btn {
-	font-family: 'Roboto';
-	font-size: 14px;
-	font-weight: 700;
-}
+.link-secondary,
 .button-primary:hover,
 .button-primary:focus,
 .button-secondary:hover,
@@ -111,15 +93,22 @@ a:focus,
 .form-submit .submit:hover,
 .form-submit .submit:focus,
 .ninja-forms-field.btn:hover,
-.ninja-forms-field.btn:focus {
+.ninja-forms-field.btn:focus,
+.woocommerce p.buttons a.button:hover,
+.woocommerce p.buttons a.button:focus {
 	text-decoration: none;
 }
-
-/* Nav */
+a:hover,
+a:focus,
+.link-primary:hover,
+.link-primary:focus,
+.link-secondary:hover,
+.link-secondary:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
-#menu-primary .current-menu-item a {
+#menu-primary .current-menu-item a,
+.site-footer a {
 	text-decoration: underline;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -127,36 +116,25 @@ a:focus,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus
 #menu-primary .current-menu-item a:hover,
-#menu-primary .current-menu-item a:focus {
+#menu-primary .current-menu-item a:focus,
+.site-footer a:hover,
+.site-footer a:focus {
     text-decoration: none !important;
 }
-.menu-social li a {
-	text-align: right;
-}
-
-/* Et Cetera */
-.page-title,
-.widget-title,
-.mod-blockquote p {
-	font-style: italic;
-}
+.call-to-action,
+.entry-title,
 .mod-gamma h3,
 .site-footer {
 	text-align: center;	
 }
-.product_title {
-	text-align: left !important;
-}
 #footer-widget-area {
 	text-align: left;
 }
-.site-footer a {
-	text-decoration: underline;
+.product_title {
+	text-align: left !important;
 }
-.site-footer a:hover,
-.site-footer a:focus,
-.woocommerce p.buttons a.button:hover {
-	text-decoration: none;
+.menu-social li a {
+	text-align: right;
 }
 
 /* xs */
@@ -225,17 +203,12 @@ a:focus,
 }
 
 /*-----------------------------------------------
-## Lists
------------------------------------------------*/
-ul,
-ol {
-	margin-left: 15px;
-	padding-left: 0px;
-}
-
-/*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -339,6 +312,13 @@ ol {
 hr {
 	border: 0;
 	height: 2px;
+}
+
+/* Lists */
+ul,
+ol {
+	margin-left: 15px;
+	padding-left: 0px;
 }
 
 /*------------------------------------------------------------------------
@@ -488,6 +468,10 @@ hr {
 /*------------------------------------------------------------------------
 # GridBlocks
 ------------------------------------------------------------------------*/
+
+/*-----------------------------------------------
+## Positioning
+-----------------------------------------------*/
 .gridblock h1, 
 .gridblock h2, 
 .gridblock h3, 
@@ -547,11 +531,12 @@ hr {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
-/* Blockquotes */
+blockquote,
 .mod-blockquote {
 	padding-bottom: 0;
 	padding-top: 0;
 }
+blockquote p,
 .mod-blockquote p {
 	padding-left: 15px;
 }

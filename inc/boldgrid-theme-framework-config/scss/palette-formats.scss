@@ -85,6 +85,7 @@
 	#tertiary-menu li.menu-social a:focus,
 	#footer-center-menu li.menu-social a:hover,
 	#footer-center-menu li.menu-social a:focus,
+	blockquote p,
 	.mod-blockquote p,
 	.site-footer a:hover,
 	.site-footer a:focus {
@@ -101,6 +102,7 @@
 	.navbar-default .navbar-nav .open > a:focus {
 		color: $text-contrast-palette-primary_2 !important;
 	}
+	blockquote,
 	.mod-blockquote {
 		border-left: 7px solid $palette-primary_2;
 	}
