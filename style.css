@@ -191,7 +191,7 @@ a:focus,
     padding: 0 15px;
 }
 .post-title-hidden .entry-header {
-    margin-top: 50px;
+    margin-top: 0;
 }
 
 /* Headings */
@@ -546,7 +546,12 @@ blockquote p,
 -----------------------------------------------*/
 .mod-alpha-1 {
 	margin-left: -15px;
+	margin-right: -15px;
 	padding: 25px;
+	min-height: 100%;
+	/* Flexbox */
+	display: flex;
+  	flex-direction: column;
 }
 .mod-alpha-1 h2 {
 	padding: 0 25px;
