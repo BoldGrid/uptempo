@@ -55,10 +55,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .background-primary {
 	background: #f4f9fc;
 }
-.page-template-home .site-content {
+.page-template-page_home .site-content {
 	background: none;
 }
-.page-template-home .content-home {
+.page-template-page_home .content-home {
 	background: #f4f9fc;
 }
 
@@ -118,7 +118,7 @@ h3 {
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-home .entry-title {
+.page-template-page_home .entry-title {
 	display: none;
 }
 .entry-title {
