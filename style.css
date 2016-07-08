@@ -32,7 +32,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Positioning
 	## Alternates
 # Modules
-	## Universal
 	## Global
 	## Alpha
 	## Beta
@@ -487,46 +486,6 @@ ol {
 /*------------------------------------------------------------------------
 # Modules
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Universal
------------------------------------------------*/
-.mod-reset {
-	margin: 0 !important;
-	padding: 0 !important;
-}
-.mod-space {
-	height: 15px;
-	background: none;
-}
-.mod-space-2x {
-	height: 30px;
-	background: none;
-}
-.mod-space-3x {
-	height: 45px;
-	background: none;
-}
-.mod-space-4x {
-	height: 60px;
-	background: none;
-}
-.mod-space-5x {
-	height: 75px;
-	background: none;
-}
-
-/* Images */
-.mod-img,
-.mod-img-circle,
-.image-gallery img,
-.video-gallery img,
-.slideshow-gallery img {
-	margin-bottom: 15px;
-}
-.mod-img-circle img {
-	border-radius: 50%;
-}
 
 /*-----------------------------------------------
 ## Global
