@@ -28,9 +28,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Main Menu
 	## Other Menus
 	## Social Menus
-# GridBLocks
-	## Positioning
-	## Alternates
 # Modules
 	## Global
 	## Alpha
@@ -122,12 +119,6 @@ a:focus,
 .site-footer a:focus {
 	text-decoration: none !important;
 }
-.call-to-action,
-.entry-title,
-.mod-gamma h3,
-.site-footer {
-	text-align: center;
-}
 #footer-widget-area {
 	text-align: left;
 }
@@ -138,7 +129,10 @@ a:focus,
 	text-align: right;
 }
 
-/* xs */
+.call-to-action,
+.entry-title,
+.mod-gamma h3,
+.site-footer,
 .xs-center,
 .mod-img,
 .mod-img-circle,
@@ -377,13 +371,8 @@ ol {
 	margin-bottom: 0;
 }
 
-/* Hover */
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-	background: none;
-}
-
-/* Active */
+.navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 #menu-primary .current-menu-item a {
 	background: none;
@@ -464,23 +453,6 @@ ol {
 	.attribution {
 		padding-bottom: 0;
 	}
-}
-
-/*------------------------------------------------------------------------
-# GridBlocks
-------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
-.gridblock h1,
-.gridblock h2,
-.gridblock h3,
-.gridblock h4,
-.gridblock h5,
-.gridblock h6,
-.gridblock p {
-	margin: 10px 0;
 }
 
 /*------------------------------------------------------------------------
