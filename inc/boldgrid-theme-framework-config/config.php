@@ -128,6 +128,11 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['font']['types'] = array( 'Changa+One:400|Roboto:300,400,500,700' );
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
+	// Menu Locations.
+	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Header';
+	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Below Header';
+	$boldgrid_framework_configs['menu']['locations']['social'] = 'Upper Right';
+
 	/**
 	 * Widgets
 	 */
