@@ -59,6 +59,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-bottom: 100px;
 }
 
+.page-template-page_home .hentry {
+	margin: 0;
+}
+
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
@@ -594,10 +598,9 @@ blockquote p,
 /*------------------------------------------------------------------------
 # Footer
 ------------------------------------------------------------------------*/
-.site-info {
-	margin-top: 30px;
+.site-footer {
+	padding: 2em 0;
 }
-
 /* Disabled Footer */
 .disabled-footer .site-footer {
 	height: auto;
