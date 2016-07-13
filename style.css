@@ -185,8 +185,8 @@ a:focus,
 	top: 50%;
 	z-index: -1;
 }
-.entry-title span {
-	padding: 0 15px;
+.entry-title a {
+	padding: 0 1em;
 }
 .post-title-hidden .entry-header {
 	margin-top: 0;
