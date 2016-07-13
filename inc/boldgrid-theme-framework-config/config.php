@@ -26,7 +26,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['template']['footer'] = 'generic';
 
 	// Give page_home.php a fluid container.
-	$boldgrid_framework_configs['template']['pages']['page_home.php']['container_class'] = 'fluid';
+	$boldgrid_framework_configs['template']['pages']['page_home.php']['container_class'] = 'container-fluid';
 
 	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
