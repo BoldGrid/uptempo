@@ -243,18 +243,12 @@
 		background-color: #dad8da;
 		color: #515151;
 	}
-}
-
-/*------------------------------------------------------------------------
-# Additional Body Classes
-------------------------------------------------------------------------*/
-.palette-primary.mce-content-body {
-	background: $palette-primary_5;
-	color: $text-contrast-palette-primary_5;
-}
-.page-template-page_home .content-home {
-	background: $palette-primary_5;
-}
-.disabled-footer .site-footer {
-	background: $palette-primary_5;
+	&.disabled-footer .site-footer,
+	&.page-template-page_home .hentry {
+		background: $palette-primary_5;
+	}
+	&.mce-content-body {
+		background: $palette-primary_5;
+		color: $text-contrast-palette-primary_5;
+	}
 }
