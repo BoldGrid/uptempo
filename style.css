@@ -86,6 +86,8 @@ ol {
 	font-weight: bold;
 }
 a,
+.entry-title a:hover,
+.entry-title a:focus,
 .link-primary,
 .link-secondary,
 .button-primary:hover,
