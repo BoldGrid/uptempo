@@ -34,8 +34,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'5' => array( '[widget]boldgrid-widget-2' ),
 		'6' => array( '[action]boldgrid_site_identity' ),
 		'7' => array( '[menu]social' ),
-		'11' => array( '[action]boldgrid_primary_navigation' ),
-		'13' => array( '[menu]tertiary' ),
+		'11' => array( '[action]boldgrid_primary_navigation', '[menu]tertiary' ),
 	);
 
 	// Assign Locations for Generic Footer.
