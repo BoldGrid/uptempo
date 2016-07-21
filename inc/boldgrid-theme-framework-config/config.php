@@ -31,7 +31,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Assign Locations for Generic Header.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
 		'1' => array( '[menu]secondary' ),
-		'5' => array( '[widget]boldgrid-widget-2' ),
+		'5' => array( '[widget]boldgrid-widget-1' ),
 		'6' => array( '[action]boldgrid_site_identity' ),
 		'7' => array( '[menu]social' ),
 		'11' => array( '[action]boldgrid_primary_navigation', '[menu]tertiary' ),
@@ -194,7 +194,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 HTML;
 
 	// Widget 2.
-	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-1'][] = array(
+	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-2'][] = array(
 		'title' => 'Call To Action',
 		'text' => $widget_markup['call-to-action'],
 		'type' => 'visual',
