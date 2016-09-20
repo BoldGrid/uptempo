@@ -213,6 +213,21 @@ HTML;
 add_filter( 'boldgrid_theme_framework_config', 'boldgrid_theme_framework_config' );
 
 /**
+ * Prevents Editor plugin from removing container on this theme.
+ *
+ * @param array $boldgrid_framework_configs
+ */
+function bgtfw_container_overrides( $boldgrid_framework_configs ) {
+
+	// Give page_home.php a fluid container.
+	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-content'] = 'container-fluid';
+
+	return $boldgrid_framework_configs;
+}
+
+add_filter( 'boldgrid_theme_framework_config', 'bgtfw_container_overrides', 60 );
+
+/**
  * Site Title & Logo Controls
  */
 function filter_logo_controls( $controls ) {
