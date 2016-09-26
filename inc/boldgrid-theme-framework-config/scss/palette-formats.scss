@@ -111,6 +111,11 @@
 	.entry-title:before {
 		border-top: 2px solid $palette-primary_2;
 	}
+	.nav > li > a:focus,
+	.nav > li > a:hover {
+		background: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+	}
 
 	/*-----------------------------------------------
 	## Buttons
@@ -254,6 +259,7 @@
 	&.archive .site-content,
 	&.error404 .site-content,
 	&.single .site-content,
+	&.blog .site-content,
 	&.page-template-default .site-content,
 	&.mce-content-body {
 		background: $palette-primary_5;
