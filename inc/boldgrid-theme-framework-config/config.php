@@ -184,7 +184,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			<div class="col-md-4">
 				<div class="call-to-action">
 					<h2 class="slogan">WHAT WE OFFER</h2>
-					<p>We are committed to providing the absolute best quality to each and every one of our customers. Over the last 20 years, since our start, we've continued to grow while staying true to our orginal mission — to give you, the customer, a winning service that you can rely on.</p>
+					<p>We are committed to providing the absolute best quality to each and every one of our customers. Over the last 20 years, since our start, we've continued to grow while staying true to our original mission — to give you, the customer, a winning service that you can rely on.</p>
 					<a class="button-primary" href="about-us">FIND OUT MORE</a>
 				</div>
 			</div>
