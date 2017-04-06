@@ -112,7 +112,9 @@
 		border-top: 2px solid $palette-primary_2;
 	}
 	.nav > li > a:focus,
-	.nav > li > a:hover {
+	.nav > li > a:hover,
+	.mark,
+	mark {
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
