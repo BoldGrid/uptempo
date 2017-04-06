@@ -227,7 +227,6 @@
 	.mod-beta p,
 	.mod-beta h3,
 	.woocommerce div.product form.cart .variations label,
-	.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
 	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
 		color: #333;
 	}
@@ -237,19 +236,6 @@
 		border: 1px solid #ccc;
 	}
 
-	/* WooCommerce */
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-		background-color: #a46497;
-		color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-		color: #515151;
-	}
 	.entry-title a,
 	&.disabled-footer .site-footer,
 	&.page-template-page_home .hentry {

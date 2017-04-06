@@ -97,9 +97,7 @@ a,
 .form-submit .submit:hover,
 .form-submit .submit:focus,
 .ninja-forms-field.btn:hover,
-.ninja-forms-field.btn:focus,
-.woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus {
+.ninja-forms-field.btn:focus {
 	text-decoration: none;
 }
 a:hover,
@@ -527,6 +525,7 @@ blockquote p,
 .error404 .button-primary {
 	margin: 0;
 }
+
 /* Search Page */
 .search .jumbotron {
 	background: none;
@@ -571,18 +570,6 @@ blockquote p,
 .product_title {
 	margin-bottom: 20px;
 }
-.product_title:before {
-	border-top: none;
-}
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
-}
-.woocommerce div.product .woocommerce-tabs .panel {
-	background: none;
-}
-.woocommerce .content-area {
-	padding: 15px 0;
-}
 
 /*------------------------------------------------------------------------
 # Footer
@@ -590,6 +577,7 @@ blockquote p,
 .site-footer {
 	padding: 2em 0;
 }
+
 /* Disabled Footer */
 .disabled-footer .site-footer {
 	padding: 15px 0;
