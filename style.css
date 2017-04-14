@@ -566,6 +566,7 @@ blockquote p,
 -----------------------------------------------*/
 .panel {
 	background: none;
+	box-shadow: none;
 }
 .product_title {
 	margin-bottom: 20px;
