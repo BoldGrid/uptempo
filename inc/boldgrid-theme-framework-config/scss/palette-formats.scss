@@ -176,6 +176,12 @@
 	.entry-title span {
 		background: $palette-primary_5;
 	}
+	#reviews #comments ol.commentlist li .meta {
+		color: $text-contrast-palette-primary_5;
+	}
+	#reviews #comments ol.commentlist li .comment-text {
+		border: 1px solid $text-contrast-palette-primary_5;
+	}
 
 	/*-----------------------------------------------
 	## Light Text
@@ -193,9 +199,6 @@
 	.widget,
 	.widget a {
 		color: #333;
-	}
-	.panel-body {
-		background: #fff;
 	}
 
 	/*-----------------------------------------------
@@ -220,16 +223,9 @@
 	/*-----------------------------------------------
 	## Et Cetera
 	-----------------------------------------------*/
-	/* fff */
-	.comment-text {
-		background: #fff;
-	}
-
 	/* 333 */
 	.mod-beta p,
-	.mod-beta h3,
-	.woocommerce div.product form.cart .variations label,
-	.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+	.mod-beta h3 {
 		color: #333;
 	}
 
