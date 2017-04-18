@@ -118,6 +118,9 @@
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}
+	.panel-default {
+		border-color: $palette-primary_2;
+	}
 
 	/*-----------------------------------------------
 	## Buttons
@@ -176,7 +179,10 @@
 	.entry-title span {
 		background: $palette-primary_5;
 	}
-	#reviews #comments ol.commentlist li .meta {
+	#reviews #comments ol.commentlist li .meta,
+	.comment-content,
+	.panel-default,
+	h5.media-heading {
 		color: $text-contrast-palette-primary_5;
 	}
 	#reviews #comments ol.commentlist li .comment-text {
@@ -192,9 +198,6 @@
 	-----------------------------------------------*/
 	.mod-beta h3,
 	.mod-beta p,
-	.comment-meta a,
-	.comment-content,
-	h5.media-heading,
 	.widget-title,
 	.widget,
 	.widget a {

@@ -548,6 +548,11 @@ blockquote p,
 	float: left;
 	padding-right: 15px;
 }
+.panel-default > .panel-heading,
+.panel-footer {
+	background: transparent;
+	border: none;
+}
 
 /* Widgets */
 #header-widget-area {
