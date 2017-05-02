@@ -44,7 +44,8 @@
 	#primary-navbar li.menu-social a:hover,
 	#primary-navbar li.menu-social a:focus,
 	#menu-primary .current-menu-item a,
-	.disabled-footer .site-footer a {
+	.disabled-footer .site-footer a,
+	.sidebar .widget-title {
 		color: $palette-primary_1;
 	}
 	.slogan {
