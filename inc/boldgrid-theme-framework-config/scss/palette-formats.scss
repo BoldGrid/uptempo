@@ -91,7 +91,8 @@
 	blockquote p,
 	.mod-blockquote p,
 	.site-footer a:hover,
-	.site-footer a:focus {
+	.site-footer a:focus,
+	.sidebar li > a {
 		color: $palette-primary_2;
 	}
 	.navbar-default .navbar-nav > li > a,
@@ -183,7 +184,9 @@
 	#reviews #comments ol.commentlist li .meta,
 	.comment-content,
 	.panel-default,
-	h5.media-heading {
+	h5.media-heading,
+	.sidebar .widget,
+	.sidebar .tagcloud a {
 		color: $text-contrast-palette-primary_5;
 	}
 	#reviews #comments ol.commentlist li .comment-text {
