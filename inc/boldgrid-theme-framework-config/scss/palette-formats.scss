@@ -262,4 +262,14 @@
 			border: 1px $text-contrast-palette-primary_5 solid;
 		}
 	}
+
+	/*-----------------------------------------------
+	## WooCommerce
+	-----------------------------------------------*/
+	&.woocommerce div.product .stock.out-of-stock {
+		color: $palette-primary_2;
+	}
+	&.woocommerce div.product .stock {
+		color: $text-contrast-palette-primary_5;
+	}
 }
