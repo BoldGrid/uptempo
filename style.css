@@ -286,6 +286,10 @@ hr {
 	height: 2px;
 	border: 0;
 }
+input,
+select {
+	color: #333;
+}
 
 /* Lists */
 ul,
