@@ -7,7 +7,9 @@
 	/*-----------------------------------------------
 	## 1
 	-----------------------------------------------*/
-	.site-header {
+	.site-header,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -30,7 +32,6 @@
 		color: $text-contrast-palette-primary_1;
 	}
 	.site-footer,
-	.navbar-default .navbar-toggle:hover,
 	.mod-gamma-1 {
 		background: $palette-primary_1;
 	}
@@ -51,6 +52,14 @@
 	.slogan {
 		color: #f4f9fc;
 	}
+	.navbar-default .navbar-toggle {
+		border-color: $palette-primary_1;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background: $text-contrast-palette-primary_1;
+	}
+
 	@media (min-width: 992px) {
 		.navbar-default .navbar-nav > li > a {
 			border-right: 2px solid $palette-primary_1;
@@ -122,6 +131,9 @@
 	}
 	.panel-default {
 		border-color: $palette-primary_2;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background: $text-contrast-palette-primary_2;
 	}
 
 	/*-----------------------------------------------
