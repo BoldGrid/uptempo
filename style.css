@@ -145,7 +145,8 @@ a:focus,
 .site-title,
 .site-description,
 .social-icons,
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 	text-align: center;
 }
 
@@ -159,7 +160,8 @@ a:focus,
 	.site-title,
 	.site-description,
 	.social-icons,
-	.navbar-default .navbar-nav > li > a {
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}
 }
