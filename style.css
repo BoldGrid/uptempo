@@ -350,13 +350,22 @@ ol {
 .navbar-default {
 	margin-bottom: 0;
 }
-
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 #menu-primary .current-menu-item a {
 	background: none;
 }
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+	background: none;
+	border: none; 
+}
+
 
 @media (min-width: 992px) {
 	/* Nav Links */
