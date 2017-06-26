@@ -25,6 +25,8 @@
 	.site-footer,
 	.site-footer a,
 	.site-footer p,
+	.site-footer p a,
+	.attribution,
 	.social-icons a:hover,
 	.social-icons a:focus {
 		color: $text-contrast-palette-primary_1;
@@ -39,12 +41,7 @@
 		background: $palette-primary_1 !important;
 		color: $text-contrast-palette-primary_1 !important;
 	}
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
+	h1, h2, h3, h4, h5, h6,
 	#primary-navbar li.menu-social a:hover,
 	#primary-navbar li.menu-social a:focus,
 	#menu-primary .current-menu-item a,
@@ -85,10 +82,21 @@
 	a,
 	a:hover,
 	a:focus,
+	.link-primary,
+	.link-primary:hover,
+	.link-primary:focus,
 	#secondary-menu .current-menu-item a,
 	#tertiary-menu .current-menu-item a,
 	#footer-center-menu .current-menu-item a,
 	.menu-social .current-menu-item a,
+	.menu-social li a:hover,
+	.menu-social li a:focus,
+	#secondary-menu li.menu-social a:hover,
+	#secondary-menu li.menu-social a:focus,
+	#tertiary-menu li.menu-social a:hover,
+	#tertiary-menu li.menu-social a:focus,
+	#footer-center-menu li.menu-social a:hover,
+	#footer-center-menu li.menu-social a:focus,
 	blockquote p,
 	.mod-blockquote p,
 	.site-footer a:hover,
@@ -132,8 +140,14 @@
 	## Buttons
 	-----------------------------------------------*/
 	.button-primary,
+	.form-submit .submit,
+	.ninja-forms-field.btn,
 	.button-primary:hover,
-	.button-primary:focus {
+	.button-primary:focus,
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	.ninja-forms-field.btn:hover,
+	.ninja-forms-field.btn:focus {
 		color: #333;
 	}
 	.button-secondary,
@@ -176,8 +190,7 @@
 	.background-primary,
 	#boldgrid-sticky-push,
 	#boldgrid-sticky-filler,
-	.entry-title span,
-	.entry-title a {
+	.entry-title span {
 		background: $palette-primary_5;
 	}
 	#reviews #comments ol.commentlist li .meta,
@@ -193,6 +206,10 @@
 	}
 
 	/*-----------------------------------------------
+	## Light Text
+	-----------------------------------------------*/
+
+	/*-----------------------------------------------
 	## Dark Text
 	-----------------------------------------------*/
 	.mod-beta h3,
@@ -201,6 +218,14 @@
 	.widget,
 	.widget a {
 		color: #333;
+	}
+
+	/*-----------------------------------------------
+	## Text Contrast
+	-----------------------------------------------*/
+	.site-info p,
+	.site-info a {
+		color: $text-contrast-palette-primary_1;
 	}
 
 	/*-----------------------------------------------
@@ -217,6 +242,18 @@
 	/*-----------------------------------------------
 	## Et Cetera
 	-----------------------------------------------*/
+	/* 333 */
+	.mod-beta p,
+	.mod-beta h3 {
+		color: #333;
+	}
+
+	/* ccc */
+	.widget-area {
+		border: 1px solid #ccc;
+	}
+
+	.entry-title a,
 	&.disabled-footer .site-footer,
 	&.page-template-page_home .hentry {
 		background: $palette-primary_5;
@@ -236,5 +273,15 @@
 			background: $palette-primary_4;
 			border: 1px $text-contrast-palette-primary_5 solid;
 		}
+	}
+
+	/*-----------------------------------------------
+	## WooCommerce
+	-----------------------------------------------*/
+	&.woocommerce div.product .stock.out-of-stock {
+		color: $palette-primary_2;
+	}
+	&.woocommerce div.product .stock {
+		color: $text-contrast-palette-primary_5;
 	}
 }
