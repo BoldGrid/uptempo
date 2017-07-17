@@ -58,7 +58,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	margin: 0;
 	padding-bottom: 100px;
 }
-
 .page-template-page_home .hentry {
 	margin: 0;
 }
@@ -120,6 +119,7 @@ h1.product_title {
 	text-align: left;
 }
 
+/* Extra small devices (phones, less than 768px) */
 .call-to-action,
 .entry-title,
 .mod-gamma h3,
@@ -136,8 +136,8 @@ h1.product_title {
 	text-align: center;
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -247,8 +247,8 @@ h1.product_title {
 	margin-top: 15px;
 }
 
-/* sm */
-@media (min-width: 500px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
@@ -278,7 +278,6 @@ ol {
 /*------------------------------------------------------------------------
 # Header
 ------------------------------------------------------------------------*/
-/* Call To Action */
 .call-to-action {
 	margin-top: 50px;
 	margin-bottom: 100px;
@@ -295,7 +294,6 @@ ol {
 /*-----------------------------------------------
 ## Main Menu
 -----------------------------------------------*/
-/* Nav Reset */
 .navbar {
 	border: none;
 	border-radius: 0;
@@ -316,8 +314,8 @@ ol {
 	background: none;
 }
 
-@media (min-width: 992px) {
-	/* Nav Links */
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.navbar-default .navbar-nav > li > a {
 		margin: 10px 0;
 		padding: 3px 25px;
@@ -396,15 +394,8 @@ blockquote p,
 	margin-top: 50px;
 }
 
-/* xs */
-@media (min-width: 768px) {
-	.mod-alpha-1 {
-		padding: 70px;
-	}
-}
-
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.mod-alpha-1 {
 		padding: 75px 60px;
 	}
