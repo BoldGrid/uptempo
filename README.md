@@ -6,7 +6,7 @@
 - License: GNU General Public License v2 or later
 - License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-BoldGrid Theme best suited for Fitness, Fashion, Home Repair, Property Management, Real Estate, and Music sites.
+BoldGrid Theme best suited for Fitness, Fashion, Home Repair, Real Estate, and Music sites.
 
 ## Information & Changelog
 [BoldGrid.com - Uptempo](https://www.boldgrid.com/themes/uptempo/)
